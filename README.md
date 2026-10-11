@@ -1,21 +1,26 @@
 # 🛡️ PrivacyGuard — Personal Data Privacy Dashboard
 
-PrivacyGuard is an educational Python application that helps users understand the potential privacy risks associated with application permissions.
+An interactive Python and Streamlit application that helps users explore application permissions and understand potential privacy risks.
 
-## Features
+## 📸 Dashboard Preview
 
-- Select permissions such as location, contacts, photos and media, camera, and microphone.
+![PrivacyGuard dashboard screenshot](screenshots/privacyguard-dashboard.png)
+
+## ✨ Features
+
+- Select permissions for location, contacts, photos and media, camera, and microphone.
 - View the number of selected permissions.
 - Review an illustrative privacy risk score and risk category.
-- Understand permissions through a permission overview.
+- Explore a permission overview.
+- Access the application online through Streamlit Community Cloud.
 
-## Technologies Used
+## 🧰 Technologies Used
 
-- Python
-- Streamlit
-- Pandas
+- **Python** — application logic
+- **Streamlit** — interactive web dashboard
+- **Pandas** — data handling and analysis
 
-## Getting Started
+## 🚀 Run Locally
 
 ### 1. Clone the repository
 
@@ -24,40 +29,37 @@ git clone https://github.com/Vijaykumarkardile22/PrivacyGuard.git
 cd PrivacyGuard
 ```
 
-### 2. Create a virtual environment
-
-```bash
-python -m venv .venv
-```
-
-### 3. Activate the environment
-
-**Windows PowerShell:**
+### 2. Create and activate a virtual environment
 
 ```powershell
+python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-### 4. Install dependencies
+### 3. Install dependencies
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-### 5. Run the application
+### 4. Start the dashboard
 
 ```bash
 python -m streamlit run app.py
 ```
 
-The application will display a local URL in the terminal. Open that URL in your browser.
+Open the local URL displayed in your terminal.
 
-## Important Note
+## 🌐 Live Demo
 
-PrivacyGuard is an educational prototype. Its assessments are based on user-selected permissions. It does not scan your device, inspect installed applications, or verify actual application behavior. Risk scores are illustrative, not security certifications.
+[Launch PrivacyGuard](https://privacyguard-jxh9l4ipcjj32gvkvi6c5m.streamlit.app/)
 
-## Author
+## 🔒 Important Disclaimer
+
+PrivacyGuard is an educational prototype. Assessments are based on user-selected permissions and illustrative scoring. The application does not scan your device, inspect installed applications, or verify actual application behavior. Its scores are not security certifications.
+
+## 👨‍💻 Author
 
 **Vijaykumar Kardile**
 
-GitHub: [Vijaykumarkardile22](https://github.com/Vijaykumarkardile22)
+- GitHub: [Vijaykumarkardile22](https://github.com/Vijaykumarkardile22)
