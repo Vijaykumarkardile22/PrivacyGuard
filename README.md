@@ -48,7 +48,7 @@ python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-Open the local URL displayed in your terminal.
+Open the local URL displayed in your terminal..
 
 ## 🌐 Live Demo
 
