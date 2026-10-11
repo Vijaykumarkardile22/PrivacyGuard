@@ -22,8 +22,6 @@ An interactive Python and Streamlit application that helps users explore applica
 
 ## 🚀 Run Locally
 
-## 🚀 Run Locally
-
 ### 1. Clone the repository
 
 ```bash
